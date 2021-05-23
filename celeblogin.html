@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>captcha</title>
+        <link rel="stylesheet" href="celeblogin.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">      
+       </head>
+    <body>
+      <video  muted loop id="myVideo" autoplay>
+    <source src="files/DiscoLights2Videvo.mov" />
+</video>
+
+       <div id="c" class="container">
+<form action="home.html"  id="form" >
+  <fieldset>
+    <legend>Stay In touch with us</legend>
+       <br>
+       <label>Gender*: </label><label for="male" id="male"> Male</label><input type="radio" name="gender" id="male">
+       <label for="female" id="female">Female</label><input type="radio" name="gender" id="female" >
+       <br>
+       <br>
+        <label for="input11">Name*:</label>
+ <input id="input11" type="text"  required><br><br>
+        <label for="input12">Email : </label>
+ <input id="input12" type="email" ><br>
+ <h4 id="h4"><i class="fa fa-check" aria-hidden="true" id="icon11"></i> You will be receiving emails from us , keeping you up with the new events , news , and all .</h4>
+ <button type="button" class="button11" Onclick="check();" ><img src="files/blue-arrow-png-36983.png"></button>
+  </fieldset>
+</form>
+       </div>
+       <div class="foot" style="margin-top: 20%;">
+       <h1 id="welcome"></h1>
+       
+       </div>
+        <script src="celeblogin.js"></script>
+        <script>
+        </script>
+    </body>
+    <footer>
+        
+    </footer>
+</html>

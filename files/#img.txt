@@ -1,0 +1,7 @@
+<div class="content">
+       <img src="files/me2.jpg" class="img1">
+       <div class="box">
+       <h1>MEET MED</h1>
+       <p> Mohamed Yassin Mnari lives in Tangier with his parents , Souad and Mohamed , his brother Walid and his two sisters Mariam and Inas . He began his career working in ecommerce(dropshipping). In february of 2018 he stopped due to some priorities . Med created this Website to help people be in the same page with their favorite celebrities. <br><br><img src="files/love.png" style="transform: rotate(270deg)" > @Medmnari</p>
+       </div>
+   </div>

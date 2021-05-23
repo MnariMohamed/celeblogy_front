@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+.teal
+{
+    background: #0070FF;
+}
+div.containe
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	padding: 2% 6%;
+	text-align: left;
+    
+}
+
+div.containe a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 1%;
+    padding: 1% 1%;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+
+}
+div.borderYtoX a:before, div.borderYtoX a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderYtoX a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderYtoX a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+#cname{
+    color: white;
+}
+.container h1{
+    color: #050505;
+    font-family: cursive;
+    width: 90%;
+    margin-left: 10%;
+
+}
+.container h5{
+    color: #5B5B5B;
+    font-family: cursive;
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 10%;
+
+}
+.container h6{
+    color: #5B5B5B;
+    font-family: cursive;
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 10%;
+
+}
+.container{
+    margin-top: 10%;
+}
+.container img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.fl{
+      font-size: 35px;
+}
+.container p{
+    margin-left: 4%;
+    margin-right: 1%;
+        color: #050505;
+font-size: 18px;
+}
+.container a{
+    color: #C03221;
+}
+.container a:hover{
+    color: #D1695D;
+}
+article{
+        width: 60%;
+margin-left: 10%;
+        background-color: #F2EFEA;
+padding-bottom: 10%;
+    margin-bottom: 10%;
+}
+.feet{
+      
+    background-color: #5B5B5B;
+    width: 100%;
+    padding-bottom: 1%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.feet a{
+     color: white;
+font-size: 20px;
+    font-family:monospace;
+}
+.feet a:hover{
+    background-color: #C03221;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+}
+.feet li{
+    display: inline-block;
+    margin-left:5%;
+        margin-right:5%;
+}
+ul{
+
+}
+li {
+color: #C03221;
+}
+
+@media screen and (max-width:990px){
+    article{
+        width: 100%;
+        margin-left: 2%;
+    }
+    .container h5{
+        margin-left: 2%;
+    }
+    .container h1{
+     margin-left: 2%;   
+    }
+      .container h6{
+     margin-left: 2%;   
+    }
+}
+@media screen and (max-width:800px){
+    article{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .container h5{
+        margin-left: 0px;
+    }
+    .container h1{
+     margin-left: 0px;   
+    }
+      .container h6{
+     margin-left: 0px;   
+    }
+}

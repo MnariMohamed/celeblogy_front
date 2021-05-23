@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+#myVideo {
+  position: fixed;
+  right: -5%;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+      z-index: -1;
+
+}
+@media screen and (max-width:1280px)
+{
+  #myVideo {
+  position: fixed;
+  right: -20%;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+      z-index: -1;
+
+}  
+}
+@media screen and (max-width:640px)
+{
+  #myVideo {
+  position: fixed;
+  right: -40%;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+      z-index: -1;
+
+}  
+}
+@media screen and (max-height:800px)
+{
+.container{
+    margin-top:10%;
+}
+}
+.container{
+    width: 35%;
+    margin: auto;
+    margin-top: 20%;
+}
+fieldset { 
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px ;
+    border-radius: 1%;
+    background-color: white;
+}
+legend{
+    background-color:#1C2541;
+    color:white;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+label{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight:600;
+}
+input{
+    border-radius: 5%;
+     border: 1px solid #ccc;
+}
+h4{
+}
+.button11 img{
+height: 20px;
+    width: 40px;
+}
+.button11 {
+        background-color: white;
+border-radius: 10%;
+    float: right;
+}
+.button12{
+    border-radius: 1%;
+float: left;
+    height: 30px;
+    background-color: white;
+    color:dimgrey;
+}
+i{
+    background-color: lightgreen;
+    visibility: hidden;
+}
+.i{
+    animation-name: c;
+    animation-duration: 2s;
+    
+}
+@keyframes c{
+    0%{ 
+        transform: rotate(180deg);
+    }
+    50%{
+        
+        transform:scale(2,2);
+        border-radius: 50%;
+    }
+    100%{
+        border-radius: 50%;
+    }
+}
+.foot{
+    
+    margin: auto;
+    width: 50%;
+}
+h1{
+    color: #5BC0BE;
+    text-align: center;
+}
+.img{
+    width: 40%;
+    height: 100%;
+    animation-name: img;
+    animation-duration: 1.5s;
+}
+@keyframes img{
+    0%{
+    
+    
+    }
+    50%{transform: rotate(360deg);
+        filter: blur(5px);
+    }
+    100%{
+    
+    }
+}
+.left{
+    float: left;
+}
+#male , #female{
+    font-family: "Courier New", Courier, monospace;
+}
